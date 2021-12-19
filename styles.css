@@ -1,0 +1,44 @@
+#input-task {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+#add-task-button {
+    text-transform: uppercase;
+    background: midnightblue;
+    color: #fff;
+    font-weight: bold;
+}
+#add-task-button:hover {
+    cursor: pointer;
+}
+
+#task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    justify-content: center;
+    list-style-type: none;
+}
+/*#task-list li {*/
+/*    !*align-items: center;*!*/
+/*}*/
+#task-list li .task {
+    padding: 0 10px;
+    text-decoration: none;
+}
+#task-list li .done {
+    text-decoration: line-through;
+}
+
+#task-list li .delete-btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 18px;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+}
+#task-list li .delete-btn:hover {
+    cursor: pointer;
+}
